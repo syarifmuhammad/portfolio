@@ -3,13 +3,13 @@
     <div class="container py-3">
       <div class="row pt-1 align-items-center">
         <div
-          class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
+          class="col-xl-4 col-bg-4 col-md-12 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2021 Copyright: Mahy Mohab</span>
+          <span>© 2023 Copyright: <a style="color:aqua;" href="https://github.com/syarifmuhammad">Dayatsyarif</a></span>
         </div>
 
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
+        <div class="col-xl-4 col-bg-4 col-md-12 col-sm-12 button-sosmed">
           <div class="text-center">
             <button
               class="btn btn-outline-secondary mx-2 "
@@ -23,19 +23,13 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('behance')"
-            >
-              <i class="fab fa-behance"></i>
-            </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-            >
-              <i class="fa fa-file"></i>
-            </button>
           </div>
+        </div>
+        <div
+          class="col-xl-4 col-bg-4 col-md-12 col-sm-12 pbelow"
+          style="color: white; text-align: end;"
+        >
+          <span>Thanks to <a style="color:aqua;" href="https://github.com/mahy209/vuejs-portofolio.git">Mahy Mohab</a></span>
         </div>
       </div>
     </div>
@@ -98,10 +92,14 @@ span {
   color: gray;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 768px) {
   .pbelow {
     padding-bottom: 20px;
-    text-align: center;
+    text-align: center !important;
+  }
+
+  .button-sosmed {
+    padding-bottom: 20px;
   }
 }
 </style>
