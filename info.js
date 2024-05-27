@@ -9,18 +9,18 @@ let info = {
     }
   },
   description:
-    "Halo, saya Muhammad Syarif Hidayatullah sedang berkuliah di ITTelkom Surabaya. Saya seorang web developer dengan 4+ tahun pengalaman menggunakan Laravel sebagai backend dan Vue JS sebagai frontend di sebuah software house. Dan pernah membuat projek Web dengan Java Springboot saat perlombaan Hackathon in BCA 2020. Dan belakangan ini membuat projek seperti Web dan REST API yang terintegrasi dengan Database menggunakan Framework Laravel.",
+    "Halo, saya Muhammad Syarif Hidayatullah, seorang web developer dengan pengalaman lebih dari 3 tahun dalam menggunakan Laravel sebagai backend dan Vue.js sebagai frontend untuk mengembangkan software. Saya suka melakukan riset tentang teknologi baru dan berusaha memahami serta mengevaluasi kelebihannya, sehingga saya dapat menentukan kapan teknologi tersebut layak digunakan. Dengan pengetahuan yang saya miliki, saya terbiasa membuat proyek web dan REST API yang terintegrasi dengan database menggunakan Laravel.",
   links: {
     linkedin: "https://www.linkedin.com/in/m-syarif-hidayatullah-a45a27193/",
-    github: "https://github.com/mahy209",
+    github: "https://github.com/syarifmuhammad",
   },
   education: [
     {
       name: "INSTITUT TEKNOLOGI TELKOM SURABAYA",
       place: "Surabaya",
-      date: "2020 - Sekarang",
+      date: "2020 - 2024",
       degree: "S1 Rekayasa Perangkat Lunak",
-      gpa: "3.8/4.0",
+      gpa: "3.9/4.0",
       description:
         "",
       skills: [
@@ -36,17 +36,23 @@ let info = {
       place: "Kotabaru, Kalimantan Selatan",
       date: "2019 - Sekarang",
       position: "Fullstack Web Developer",
-      description:
-        "",
-      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "PHP", "Laravel", "VueJS"]
+      description: "Menjadi seorang full stack engineer, mulai dari perencanaan, pembuatan, testing, hingga deployment di beberapa project yang diberikan ke CV Computer Media Utama",
+      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "JavaSript", "PHP", "Laravel", "VueJS"]
+    },
+    {
+      name: "Student Staff SSC Kampus Telkom University Surabaya",
+      place: "Surabaya, Jawa Timur",
+      date: "2023 - 2024",
+      position: "Fullstack Web Developer",
+      description: "Pembuatan beberapa web layanan di kampus seperti e-learning, layanan mahasiswa, portfolio kampus telkom university surabaya",
+      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "JavaSript", "PHP", "Laravel", "VueJS", "Moodle LMS", "Wordpress"]
     },
     {
       name: "UKM Coder ITTelkom Surabaya",
       place: "Surabaya",
       date: "2021 - 2022",
       position: "Ketua Divisi Web Developer",
-      description:
-        "",
+      description: "Memberikan materi mingguan terkait web development khususnya dengan bahasa pemrograman PHP dan Javascript",
       skills: ["Javascript", "Laravel", "VueJS", "NodeJS"]
     },
   ],
@@ -60,12 +66,12 @@ let info = {
     {
       title: "Front-end",
       info: [
-        "HTML5", "CSS3", "Bootstrap5", "VueJS", "JQuery", "Tailwind"],
+        "HTML5", "CSS3", "Javascript"],
       icon: "fa fa-cubes"
     },
     {
-      title: "Web Technologies",
-      info: ["Vue", "Laravel", "NodeJS"],
+      title: "Framework",
+      info: ["Vue", "Laravel", "NodeJS", "Bootstrap", "Tailwind"],
       icon: "fas fa-laptop-code"
     },
   ],
